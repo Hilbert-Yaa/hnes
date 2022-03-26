@@ -1,1 +1,1 @@
-stack build && stack exec -- hnes $1
+cabal build && cabal exec -- hnes $1
